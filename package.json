@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "account-template",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "Expandable account template",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
     "@types/node": "^22.5.5",
     "nodemon": "^3.1.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
 }

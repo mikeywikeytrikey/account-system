@@ -1,9 +1,11 @@
-var http = require("http");
+const express = require("express");
+const dotenv = require("dotenv");
+const app = express();
+const PORT = env.DEVELOPMENT_PORT || 8080;
 
-//create a server object:
-http
-  .createServer(function (req, res) {
-    res.write("Hello from CodeSandbox!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+app.listen(PORT, () => {
+  console.log("=============");
+  console.log("Acc Template");
+  console.log(`http://localhost:${PORT}`);
+  console.log("=============");
+});

@@ -1,14 +1,13 @@
-# Node.js template
+# Account Template
 
-This is a Node.js project with an HTTP server.
+This is just a simple, secure account template that uses Node.js Express.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io).
+## To run
 
-## How does this work?
+### Development
 
-We run `yarn start` to start an HTTP server that runs on http://localhost:8080. You can open new or existing devtools with the + button next to the devtool tabs.
+Run `yarn start` then head to [http://localhost8080](http://localhost:8080)
 
-## Resources
+### Production
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+No clue
